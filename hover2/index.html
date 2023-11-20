@@ -1,0 +1,964 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+        <title>Document</title>
+        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>          
+        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>                 
+        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>            
+                        
+    </head>
+    <body>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            body{
+                font-family: 'Montserrat'sans-serif;
+            }
+            .wrapper{
+               overflow-y: scroll;
+                overflow-x: hidden;
+                position: relative;
+                margin: 0;
+                padding-right: 0;
+                padding-left: 0;
+                width: 99%;
+               
+                top: -300px;
+
+            }
+            .conteiner{
+                
+                width: 1440px;
+                height: 852px;
+                top: -300px;
+                
+
+            }
+            .conteiner>img{
+                width: 1440px;
+                height: 852px;
+                top: -300px;
+            }
+            .index{
+                width: 991px;
+                height:183px;
+                color: #FFFFFF;
+                left: 225px;
+               
+               top: 390px;
+               position: relative;
+                font-size: 150px;
+                font-weight: 400;
+                line-height: 183px;
+                letter-spacing: 0.3em;
+                text-align: center;
+
+            }
+            .item{
+                width: 86px;
+                height: 34px;
+                top: 90px;
+                left: 40px;
+                position: relative;
+                font-size: 28px;
+                font-weight: 800;
+                line-height: 34px;
+                letter-spacing: 0.1em;
+                text-align: left;
+                color: #FFFFFF;
+
+
+            }
+            .item2{
+                width: 333px;
+                height: 34px;
+                top: 600px;
+                left: 552px;
+                border: 1px;
+                position: relative;
+                font-size: 28px;
+                font-weight: 400;
+                line-height: 34px;
+                letter-spacing: 0.2em;
+                text-align: left;
+                color: #FFFFFF;
+
+
+            }
+            .top{
+                color: #FFFFFF;
+                position: relative;
+                top: 300px;
+                left: 1400px;
+                font-size: 25px;
+            }
+            .conteiner2{
+                background:black;
+                width: 1440px;
+                height: 990px;
+                top: 852px;
+
+            }
+            .came{
+                width: 332px;
+                height: 49px;
+                top: 416px;
+                left: 188px;
+               position: relative;
+                font-size: 40px;
+                font-weight: 500;
+                line-height: 49px;
+                letter-spacing: 0.1em;
+                text-align: left;
+                color: #FFFFFF;
+
+
+            }
+            .come{
+                width: 348px;
+                height: 286px;
+                top: 00px;
+                left: 188px;
+                border: 1px;
+                position: relative;
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 22px;
+                letter-spacing: 0.1em;
+                text-align: left;
+                color: #FFFFFF;
+
+
+            }
+            
+            .conteiner2>img{
+                width: 240px;
+                height: 249px;
+                top: 364px;
+                left: 693px;
+                border-radius: 30px;
+                position: relative;
+
+            }
+            .conteiner2>img + img{
+                width: 240px;
+                height: 186px;
+                top: 106px;
+                left: 450px;
+                border-radius: 30px;
+                position: relative;
+            }
+            .conteiner2> img + img + img{
+                position: relative;
+                width: 326px;
+                height: 457px;
+                top: 375px;
+                left: 470px;
+                border-radius: 30px;
+
+            }
+            .conteiner3{
+                width: 1440px;
+                height: 625px;
+                top: 1592px;
+                background: url(./img/bg\ 2.png);
+               
+
+            }
+            .roz{
+                width: 1440px;
+                height: 625px;
+            }
+            
+            .roz-z{
+                width: 234px;
+                height: 49px;
+                top: 102px;
+                left: 603px;
+                position: relative;
+                font-size: 40px;
+                font-weight: 500;
+                line-height: 49px;
+                letter-spacing: 0.1em;
+                text-align: center;
+                color:#FFFFFF;
+
+
+            }
+            .roz-m{
+                width: 721px;
+                height: 110px;
+                top: 110px;
+                left: 359px;
+               position: relative;
+               font-size: 18px;
+               font-weight: 400;
+               line-height: 22px;
+               letter-spacing: 0.1em;
+               text-align: center;
+               color: #FFFFFF;
+
+
+            }
+            .roz-k{
+                width: 123px;
+                height: 22px;
+                top: 355px;
+                left: 658px;
+                position: relative;
+                font-size: 18px;
+                font-weight: 500;
+                line-height: 22px;
+                letter-spacing: 0.1em;
+                text-align: center;
+                color: #FFFFFF;
+                display: inline-block;
+
+
+            }
+            .roz-k::before{
+                content: '';
+                background:#FFFFFF;
+                width: 335px;
+                height: 1px;
+                top: 32px;
+                left: -100px;
+                position: absolute;
+                
+            }
+            .rom-rom{
+                width: 335px;
+                height: 64px;
+                top: 397px;
+                left: 560px;
+                font-size: 18px;
+                font-weight: 500;
+                line-height: 22px;
+                letter-spacing: 0.1em;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background: #000000;
+                position: relative;
+                
+                color: #FFFFFF;
+               
+
+                
+            }
+            .conteiner4{
+                width: 1440px;
+                height: 89px;
+                top: 2217px;
+                background: #000000;
+            }
+            .home{
+                width: 170px;
+                height: 20px;
+                top: 35px;
+                left: 1230px;
+                position: relative;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 20px;
+                letter-spacing: 0.1em;
+                text-align: left;
+                color: #FFFFFF;
+
+
+            }
+            .home2{
+                width: 86px;
+                height: 34px;
+                top: 8px;
+                left: 677px;
+                position: relative;
+                font-size: 28px;
+                font-weight: 800;
+                line-height: 34px;
+                letter-spacing: 0.1em;
+                text-align: left;
+                color: #FFFFFF;
+
+
+            }
+            .inst{
+                top: -35px;
+                left: 30px;
+                color: #FFFFFF;
+               
+                font-size: 50px;
+                position: relative;
+               
+            }
+            .face{
+                top: -98px;
+                left: 88px;
+                padding: 5px 5px 5px 5px;
+                margin: 0;
+                color: #FFFFFF;
+                font-size: 50px;
+                position: relative;
+               
+               
+            }
+            .twi{
+                top: -165px;
+                left: 150px;
+                padding: 5px 5px 5px 5px;
+                margin: 0;
+                color: #FFFFFF;
+                font-size: 50px;
+                position: relative;
+            }
+            @media  screen and (max-width: 830px) {
+                .wrapper{
+                border: 1px solid  orange;
+                overflow-y: scroll;
+                overflow-x: hidden;
+                position: relative;
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+               top: -300px;
+
+            }
+                .conteiner{
+                
+                width: 815px;
+                height: 852px;
+                
+
+            }
+            .conteiner>img{
+                width: 815px;
+                height: 852px;
+              
+               
+            }
+
+
+            .index{
+                width: 195px;
+                height: 210px;
+                color: #FFFFFF;
+                left: 125px;
+               
+               top: 540px;
+               position: relative;
+                font-size: 90px;
+                font-weight: 400;
+                line-height: 183px;
+                letter-spacing: 0.3em;
+                text-align: center;
+
+            }
+            .item{
+                width: 86px;
+                height: 34px;
+                top: 90px;
+                left: 40px;
+                position: relative;
+                font-size: 28px;
+                font-weight: 800;
+                line-height: 34px;
+                letter-spacing: 0.1em;
+                text-align: left;
+                color: #FFFFFF;
+
+
+            }
+            .item2{
+                width: 333px;
+                height: 34px;
+                top: 600px;
+                left: 252px;
+                border: 1px;
+                position: relative;
+                font-size: 28px;
+                font-weight: 400;
+                line-height: 34px;
+                letter-spacing: 0.2em;
+                text-align: left;
+                color: #FFFFFF;
+
+
+            }
+            .top{
+                color: #FFFFFF;
+                position: relative;
+                top: 330px;
+                left: 750px;
+                font-size: 25px;
+            }
+            .conteiner2{
+                background: black;
+                width: 815px;
+                background-size:cover ;
+                height: 1219px;
+                top: 852px;
+
+            }
+            .came{
+                width: 332px;
+                height: 49px;
+                top: 416px;
+                left: 88px;
+               position: relative;
+                font-size: 40px;
+                font-weight: 500;
+                line-height: 49px;
+                letter-spacing: 0.1em;
+                text-align: left;
+                color: #FFFFFF;
+
+
+            }
+            .come{
+                width: 591px;
+                height: 176px;
+                top: 00px;
+                left: 88px;
+                border: 1px;
+                position: relative;
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 22px;
+                letter-spacing: 0.1em;
+                text-align: left;
+                color: #FFFFFF;
+
+
+            }
+            
+            .conteiner2>img{
+                width: 240px;
+                height: 249px;
+                top: 634px;
+                left: 85px;
+                border-radius: 30px;
+                position: relative;
+
+            }
+            .conteiner2>img + img{
+                width: 240px;
+                height: 186px;
+                top: 370px;
+                left: -160px;
+                border-radius: 30px;
+                position: relative;
+            }
+            .conteiner2> img + img + img{
+                position: relative;
+                width: 326px;
+                height: 457px;
+                top: 640px;
+                left: -140px;
+                border-radius: 30px;
+
+            }
+            .conteiner3{
+                width: 815px;
+                height: 625px;
+               background: url(./img/bg\ 2.png);
+               
+               
+              
+
+            }
+            .roz{
+                width: 815px;
+                height: 625px;
+            }
+            
+            .roz-z{
+                width: 234px;
+                height: 49px;
+                top: 102px;
+                left:253px;
+                position: relative;
+                font-size: 40px;
+                font-weight: 500;
+                line-height: 49px;
+                letter-spacing: 0.1em;
+                text-align: center;
+                color:#FFFFFF;
+
+
+            }
+            .roz-m{
+                width: 391px;
+                height: 210px;
+                top: 60px;
+                left: 199px;
+               position: relative;
+               font-size: 18px;
+               font-weight: 400;
+               line-height: 22px;
+               letter-spacing: 0.1em;
+               text-align: center;
+               color: #FFFFFF;
+
+
+            }
+            .roz-k{
+                width: 123px;
+                height: 22px;
+                top: 385px;
+                left: 328px;
+                position: relative;
+                font-size: 18px;
+                font-weight: 500;
+                line-height: 22px;
+                letter-spacing: 0.1em;
+                text-align: center;
+                color: #FFFFFF;
+                display: inline-block;
+
+
+            }
+            .roz-k::before{
+                content: '';
+                background:#FFFFFF;
+                width: 335px;
+                height: 1px;
+                top: 32px;
+                left: -100px;
+                position: absolute;
+                
+            }
+            .rom-rom{
+                width: 335px;
+                height: 64px;
+                top: 427px;
+                left: 230px;
+                font-size: 18px;
+                font-weight: 500;
+                line-height: 22px;
+                letter-spacing: 0.1em;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background: #000000;
+                position: relative;
+                
+                color: #FFFFFF;
+               
+
+                
+            }
+            .conteiner4{
+                border: #000000;
+                width: 815px;
+                height: 89px;
+                top: 2217px;
+                background-size: cover;
+                background:url(https://avatars.mds.yandex.net/i?id=079c291a5b6d5103f7b96700ae36408bd83f7619-10611957-images-thumbs&n=13);
+            }
+            .home{
+                width: 170px;
+                height: 20px;
+                top: 35px;
+                left: 640px;
+                position: relative;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 20px;
+                letter-spacing: 0.1em;
+                text-align: left;
+                color: #FFFFFF;
+
+
+            }
+            .home2{
+                width: 86px;
+                height: 34px;
+                top: 8px;
+                left: 377px;
+                position: relative;
+                font-size: 28px;
+                font-weight: 800;
+                line-height: 34px;
+                letter-spacing: 0.1em;
+                text-align: left;
+                color: #FFFFFF;
+
+
+            }
+            .inst{
+                top: -35px;
+                left: 30px;
+                color: #FFFFFF;
+               
+                font-size: 50px;
+                position: relative;
+               
+            }
+            .face{
+                top: -98px;
+                left: 88px;
+                padding: 5px 5px 5px 5px;
+                margin: 0;
+                color: #FFFFFF;
+                font-size: 50px;
+                position: relative;
+               
+               
+            }
+            .twi{
+                top: -165px;
+                left: 150px;
+                padding: 5px 5px 5px 5px;
+                margin: 0;
+                color: #FFFFFF;
+                font-size: 50px;
+                position: relative;
+            }
+            }
+            @media screen and (max-width: 350px){
+                .wrapper{
+               overflow-y: scroll;
+               overflow-x: hidden;
+                position: relative;
+                width: 100%;
+                height: 100%;
+                margin: 0;
+               top: -300px;
+
+            }
+                .conteiner{
+                
+                width: 340px;
+                height: 621px;
+                
+
+            }
+            .index{
+                width: 265px;
+                height: 49px;
+                color: #FFFFFF;
+                left: 50px;
+                
+               top: 390px;
+               position: relative;
+                font-size: 40px;
+                font-weight: 400;
+                line-height: 183px;
+                letter-spacing: 0.3em;
+                text-align: center;
+
+            }
+            .item{
+                width: 86px;
+                height: 34px;
+                top: 230px;
+                left: 00px;
+                position: relative;
+                font-size: 28px;
+                font-weight: 800;
+                line-height: 34px;
+                letter-spacing: 0.1em;
+                text-align: left;
+                color: #FFFFFF;
+
+
+            }
+            .item2{
+                width: 215px;
+                height: 29px;
+                top: 500px;
+                left: 65px;
+                border: 1px;
+                position: relative;
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 34px;
+                letter-spacing: 0.2em;
+                text-align: left;
+                color: #FFFFFF;
+
+
+            }
+            .top{
+                color: #FFFFFF;
+                position: relative;
+                top: 320px;
+                left: 280px;
+                font-size: 34px;
+            }
+            .conteiner2{
+                background: black;
+                width: 815px;
+                height: 2102px;
+                top: -1152px;
+
+            }
+            .came{
+                width: 323px;
+                height: 34px;
+                top: 600px;
+                left: 35px;
+               position: relative;
+                font-size: 28px;
+                font-weight: 500;
+                line-height: 49px;
+                letter-spacing: 0.1em;
+                text-align: left;
+                color: #FFFFFF;
+
+
+            }
+            .come{
+                width: 300px;
+                height: 300px;
+                top: -50px;
+                left: 35px;
+                border: 1px style white;
+                position: relative;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 22px;
+                letter-spacing: 0.1em;
+                text-align: left;
+                color: #FFFFFF;
+
+
+            }
+            
+            .conteiner2>img{
+                width: 292px;
+                height: 249px;
+                top: 1200px;
+                left: 25px;
+                border-radius: 30px;
+                position: relative;
+
+            }
+            .conteiner2>img + img{
+                width: 292px;
+                height: 186px;
+                top: 930px;
+                left: -270px;
+                border-radius: 30px;
+                position: relative;
+            }
+            .conteiner2> img + img + img{
+                position: relative;
+                width: 292px;
+                height: 457px;
+                top: 1220px;
+                left: 20px;
+                border-radius: 30px;
+
+            }
+            .conteiner3{
+                width: 815px;
+                height: 608px;
+               background: url(./img/bg\ 2.png);
+               
+
+            }
+            .roz{
+                width: 340px;
+                height: 608px;
+            }
+            .roz-z{
+                width: 164px;
+                height: 34px;
+                top: 102px;
+                left: 35px;
+                position: relative;
+                font-size: 40px;
+                font-weight: 500;
+                line-height: 49px;
+                letter-spacing: 0.1em;
+                text-align: center;
+                color:#FFFFFF;
+
+
+            }
+            .roz-m{
+               
+
+                width: 292px;
+                height: 220px;
+                top: 75px;
+                left: 35px;
+               position: relative;
+               font-size: 16px;
+               font-weight: 400;
+               line-height: 19.5px;
+               letter-spacing: 0.1em;
+               text-align: left;
+             
+
+               color: #FFFFFF;
+
+
+            }
+            .roz-k{
+                width: 123px;
+                height: 22px;
+                top: 395px;
+                left: 100px;
+                position: relative;
+                font-size: 18px;
+                font-weight: 500;
+                line-height: 22px;
+                letter-spacing: 0.1em;
+                text-align: center;
+                color: #FFFFFF;
+                display: inline-block;
+
+
+            }
+            .roz-k::before{
+                content: '';
+                background:#FFFFFF;
+                width: 335px;
+                height: 1px;
+                top: 32px;
+                left: -100px;
+                position: absolute;
+                
+            }
+            .rom-rom{
+                width: 292px;
+                height: 64px;
+                top: 430px;
+                left: 20px;
+                font-size: 18px;
+                font-weight: 500;
+                line-height: 22px;
+                letter-spacing: 0.1em;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background: #000000;
+                position: relative;
+                
+                color: #FFFFFF;
+               
+
+                
+            }
+            .conteiner4{
+                border: #000000;
+                width: 815px;
+                height: 189px;
+                top: 2217px;
+                background-size: cover;
+                background:url(https://avatars.mds.yandex.net/i?id=079c291a5b6d5103f7b96700ae36408bd83f7619-10611957-images-thumbs&n=13);
+            }
+            .home{
+                width: 170px;
+                height: 20px;
+                top: 155px;
+                left: 96px;
+                position: relative;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 20px;
+                letter-spacing: 0.1em;
+                text-align: left;
+                color: #FFFFFF;
+
+
+            }
+            .home2{
+                width: 86px;
+                height: 34px;
+                top: 65px;
+                left: 130px;
+                position: relative;
+                font-size: 28px;
+                font-weight: 800;
+                line-height: 34px;
+                letter-spacing: 0.1em;
+                text-align: left;
+                color:#FFFFFF;
+
+
+            }
+            .inst{
+                top: -35px;
+                left: 120px;
+                color: #FFFFFF;
+               
+                font-size: 30px;
+                position: relative;
+               
+            }
+            .face{
+                top: -75px;
+                left: 150px;
+                padding: 5px 5px 5px 5px;
+                margin: 0;
+                color: #FFFFFF;
+                font-size: 30px;
+                position: relative;
+               
+               
+            }
+            .twi{
+                top: -119px;
+                left: 185px;
+                padding: 5px 5px 5px 5px;
+                margin: 0;
+                color: #FFFFFF;
+                font-size: 30px;
+                position: relative;
+            }
+            }
+           
+
+           
+        </style>
+        <div class="wrapper">
+            <div class="conteiner">
+                <div class="top"><i class='fa fa-bars'></i></div>
+                
+                <div class="index">EXPLORE</div>
+                <div class="item">TRVL</div>
+                <div class="item2">Mountain travelings</div>
+                <img src="./img/bg image.png" alt="">
+            </div>
+            <div class="conteiner2">
+                <div class="came">Travel with us</div>
+                <img src="./img/Rectangle 1.png">
+                <img src="./img/Rectangle 2.png" alt="">
+               <img src="./img/Rectangle 3.png" alt="">
+                <div class="come">Nullam a nisl diam. Vestibulum fermentum luctus nibh, et maximus risus eleifend eu. Fusce ut vehicula ex. Aliquam auctor et nibh vel imperdiet. Vestibulum consequat tincidunt enim a condimentum. Vivamus rutrum, turpis eget tincidunt fermentum, orci mauris gravida diam, rhoncus auctor nunc nisi ut nibh. Donec gravida aliquam eleifend. Suspendisse facilisis aliquam ullamcorper.</div>
+            </div>
+            <div class="conteiner3">
+              
+                
+                <div class="roz-z">Subscribe</div>
+                <div class="roz-k">enter email</div>
+                <div class="roz-l"></div>
+                <div class="rom-rom"><div class="rox-rom">Subscribe</div></div>
+                <div class="roz-m">Nullam a nisl diam. Vestibulum fermentum luctus nibh, et maximus risus eleifend eu. Fusce ut vehicula ex. Aliquam auctor et nibh vel imperdiet. Vestibulum consequat tincidunt enim a condimentum. Vivamus rutrum, turpis eget tincidunt fermentum, orci mauris gravida diam</div>
+            </div>
+            <div class="conteiner4">
+                <div class="home">support@trvl.com</div>
+                <div class="home2">TRVL</div>
+                <div class="inst">
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                </div>
+                <div class="face"><i class='fa fa-facebook-square'></i>
+                </div>
+                <div class="twi"> <i class='fa fa-twitter-square'></i></div>
+                
+               
+            </div>
+        </div>
+       
+    </body>
+</html>
